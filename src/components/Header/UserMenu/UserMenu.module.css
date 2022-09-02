@@ -1,0 +1,59 @@
+.authNav {
+  margin-top: 0;
+}
+
+.nav {
+  margin-top: 0;
+  margin-right: 30px;
+}
+
+.link {
+  padding: 5px;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  color: black;
+  text-decoration: none;
+}
+
+.link:not(:last-child){
+  margin-right: 10px;
+}
+
+.activeLink {
+  composes: link;
+
+  color: tomato;
+  border-bottom: 2px solid tomato;
+}
+
+.userMenu {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  padding: 5px 10px;
+
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 20px;
+
+  cursor: pointer;
+
+  transition: background-color 250ms linear 0ms, color 250ms linear 0ms, border 250ms linear 0ms;
+}
+
+.btn:hover {
+  border: 1px solid white;
+  color: white;
+  background-color: tomato;
+}
+
+.userName {
+  margin-right: 10px;
+  margin-left: 10px;
+
+  font-weight: 500;
+}

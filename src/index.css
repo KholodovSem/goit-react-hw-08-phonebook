@@ -1,0 +1,9 @@
+@import-normalize; /* bring in normalize.css styles */
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

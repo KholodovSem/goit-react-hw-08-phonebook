@@ -1,0 +1,68 @@
+.homePage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding-top: 40px;
+
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 90px;
+}
+
+.logoTextWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.letter {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.letter:nth-child(1) {
+  color: #349f11;
+}
+
+.letter:nth-child(2) {
+  color: #bf29d1;
+}
+
+.letter:nth-child(3) {
+  color: #4359d1;
+}
+
+.letter:nth-child(4) {
+  color: #f0b268;
+}
+
+.letter:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.title {
+  margin-bottom: 60px;
+  border-bottom: 2px solid black;
+}
+
+.messageWrapper {
+  max-width: 461px;
+  text-wrap: normal;
+  min-height: 139px;
+
+  padding: 40px;
+  margin-bottom: 40px;
+
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+
+  text-align: center;
+}
+
+.message{
+  font-size: 25px;
+}

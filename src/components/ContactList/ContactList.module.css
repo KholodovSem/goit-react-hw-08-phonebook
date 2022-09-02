@@ -1,0 +1,55 @@
+ul {
+
+  margin-bottom: 0;
+  padding: 0;
+
+  list-style: none;
+
+  text-align: center;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listItem:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: 500;
+
+  margin-right: 5px;
+}
+
+.number{
+  margin-right: 15px;
+  margin-left: auto;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 7px;
+  border: 1px solid darkgrey;
+  cursor: pointer;
+  background-color: white;
+
+  min-width: 103px;
+  padding: 0 10px;
+
+  transition: transform 250ms linear 0ms;
+}
+
+.button:hover{
+  transform: scale(1.05);
+}
+
+.button:active{
+  background-color: royalblue;
+}
+
+

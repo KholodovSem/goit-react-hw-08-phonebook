@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-bottom: 30px;
+}
+
+.button {
+  margin-top: 30px !important;
+
+  font-weight: 600 !important;
+  border: 1px solid tomato !important;
+  color: black !important;
+}
+
+.button:hover {
+  background-color: tomato !important;
+  color: white !important;
+}
