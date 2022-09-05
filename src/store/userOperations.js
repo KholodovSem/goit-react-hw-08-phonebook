@@ -1,9 +1,6 @@
 import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import { userRegistration } from '../helpers/userRegistration';
-import { userLogin } from '../helpers/userLogin';
-import { userLogOut } from '../helpers/userLogOut';
-import { fetchUser } from '../helpers/fetchUser';
+import { userRegistration, userLogin, userLogOut, fetchUser } from '../helpers/authHelpers';
 
 const token = {
   set(token) {

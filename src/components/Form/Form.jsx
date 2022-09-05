@@ -15,7 +15,7 @@ const Form = ({ onSubmit, pathname }) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (userState.error === "none" && userState.token !== null) {
+    if (userState.error === "none" && userState.token) {
       toast.success(() => {
         if (pathname === '/registration'){
           return 'You are registered'

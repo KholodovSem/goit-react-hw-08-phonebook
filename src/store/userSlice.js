@@ -26,6 +26,7 @@ const userSlice = createSlice({
     [registration.fulfilled]: (state, action) => {
       state.isLoading = false;
       state.isLogin = true;
+      state.name = action.user.name;
       state.token = action.payload.token;
       state.error = 'none';
     },
